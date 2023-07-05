@@ -1,0 +1,41 @@
+<header class="p-3 text-bg-dark">
+
+    <div class="container">
+  
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+  
+        <img src="/assets/images/planificacion-tareas.jpg" style="max-height: 60px; padding: 5px;" alt="logo"
+        routerLink="/" class="logo">
+  
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-3">
+          <li><a class="nav-link px-2 mx-2" routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">
+            Inicio</a>
+          </li>
+          <li><a class="nav-link px-2 mx-2" routerLink="/about" routerLinkActive="active">
+            Acerca de</a>
+          </li>
+        </ul>
+  
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-white" 
+            placeholder="Buscar..." aria-label="Search">
+        </form>
+  
+        <div class="text-end">
+          <button type="button" routerLink="/account/login" 
+            class="btn btn-outline-light login me-2 mx-2 px-4 py-2">
+            Iniciar sesión
+          </button>
+          <button type="button" routerLink="/account/register" 
+            class="btn btn-outline-light register btn-warning text-dark mx-3 px-4 py-2">
+            Registrarse
+          </button>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </header>
+  
